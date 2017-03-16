@@ -6,9 +6,6 @@ local account_mgr = require "account_mgr"
 local CMD = {}
 
 function CMD.start()
-    -- 初始化玩家管理器
-    account_mgr:init()
-
     -- 初始化base_app_mgr
     base_app_mgr:init()
     base_app_mgr:create_base_apps()
